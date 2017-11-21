@@ -1,0 +1,29 @@
+body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 60px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f98;
+    display: flex;
+   
+}
+input{
+    flex-grow: 1;
+    border: none;
+    padding: 10px;
+    margin: 10px auto;
+}
+section{
+    padding: 10px;
+    background-color: rgb(73, 175, 175);
+}
+section:nth-child(2n+1){
+    background-color: rgb(223, 223, 82);
+
+}

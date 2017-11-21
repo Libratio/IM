@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="author" content="xy">
+        <title>chat</title>
+        <link rel="stylesheet" href="./index.css">
+    
+        <style>
+            
+        </style>
+    </head>
+    <body>
+        
+        <!-- socket.io.js这个地址是固定的 在根目录中是没有这个文件的 当浏览器向服务器请求这个文件时  服务器会拦截这个请求 从node_modules/socket.io-client返回这个文件 -->
+        <footer>
+            <input type="text" placeholder="请输入消息"> 
+        </footer>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="./index.js"></script>
+    </body>
+</html>
